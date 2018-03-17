@@ -3,13 +3,14 @@
 <html lang="en">
     <head>
         <title>Week 03</title>
-        <link rel="stylesheet" href="css/style.css"></link>
-        <link rel="stylesheet" href="css/style2.css"></link>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style2.css"/>
 
     </head>
 
     <body>
-        <div>
+        <!-- Logo and Navigation -->
+        <div> 
             <div id="logo">
                 Logo
             </div>
@@ -17,31 +18,36 @@
                 Navigation
             </div>
         </div>
+        <!-- page 2 start here -->
         <div id="page1">
-            <header>
+
+            <header><!-- Header start-->
                 <h1>Sign up to yourcustomtailor.com</h1>
 
-            </header>
-            <main>
+            </header><!-- Header ends-->
+            <main><!-- Main start-->
                 <h2>Step 2/4 - how can we reach you?</h2>
+                <!-- Progress bar start-->
                 <h4>Progress</h4>
                 <div class="progressbar">
-                        <div class="progressdone"></div>
-                        <div class="progressleft"></div>
-                    </div>
+                    <div class="progressdone"></div>
+                    <div class="progressleft"></div>
+                </div>
+                <!-- Progressbar end-->
                     <br>
                     <br>    
-                    <p>We will probably need to stay in touch somehow. Let is know how we can reach you?</p>
-                
+                    <p>We will probably need to stay in touch somehow. 
+                        Let is know how we can reach you?</p>
+                <!-- form start-->
                 <form action="step3.html">
                       
                         <div class="details">
                                 <div>
                                     <div class="emailphone">
-                                            <label for="emailaddress">Email*</label>
-                                            <input required type="email" id="emailaddress"/>
-                                            <label for="phonenum">Phone</label>
-                                            <input id="phonenum" type="text" required pattern="^[0-9]{8}$" title="Only 8 digits number"/>
+                                        <label for="emailaddress">Email*</label>
+                                        <input required type="email" id="emailaddress"/>
+                                        <label for="phonenum">Phone</label>
+                                        <input id="phonenum" type="text" required pattern="^[0-9]{8}$" title="Only 8 digits number"/>
                                     </div>
             
                                 </div>
@@ -65,12 +71,12 @@
                                     <label for="dontsendnews">Don't send me news</label>
                                     <input type="radio" name="news" id="dontsendnews"/>
                                 </div>
-        
 
                                 <button>Next step</button>
+                                
                 </form>
 
-
+                </main>
         </div>
 
     </body>
