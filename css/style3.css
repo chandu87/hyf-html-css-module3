@@ -1,0 +1,50 @@
+img{
+    width:20%;
+    height:250px;
+}.progressdone{
+    width:50%;
+    height:40px;
+    border:2px solid grey;
+    background: grey;
+    float: left;
+}
+.progressleft{
+    background:white;
+    width:45%;
+    height:40px;
+    border:2px solid grey;
+    float:left;
+    
+}
+label{
+    font-weight: bold;
+    font-size:1.2em;
+}
+
+.checkbox1{
+    margin-left:50px;
+    
+
+}
+.checkbox1 input{
+    margin-right:50px;
+}
+.checkbox2 input{
+    margin-right:62px;
+}
+.checkbox3{
+    margin-left:15px;
+}
+.checkboxgroup{
+    margin-left:80px;
+}
+.checkboxgroup input{
+    margin-right:200px;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    transform: scale(3);
+    -webkit-transform: scale(3); /* Safari and Chrome */
+    margin-left: 20px;
+
+  }

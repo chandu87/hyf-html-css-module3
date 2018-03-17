@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Week 03</title>
+        <link rel="stylesheet" href="css/style.css"></link>
+        <link rel="stylesheet" href="css/style2.css"></link>
+
+    </head>
+
+    <body>
+        <div>
+            <div id="logo">
+                Logo
+            </div>
+            <div id="navigation">
+                Navigation
+            </div>
+        </div>
+        <div id="page1">
+            <header>
+                <h1>Sign up to yourcustomtailor.com</h1>
+
+            </header>
+            <main>
+                <h2>Step 2/4 - how can we reach you?</h2>
+                <h6>Progress</h6>
+                <div class="progressbar">
+                        <div class="progressdone"></div>
+                        <div class="progressleft"></div>
+                    </div>
+                    <br>
+                    <br>    
+                    <p>We will probably need to stay in touch somehow. Let is know how we can reach you?</p>
+                
+                <form action="step3.html">
+                      
+                        <div class="details">
+                                <div>
+                                    <div class="emailphone">
+                                            <label for="emailaddress">Email*</label>
+                                            <input required type="email" id="emailaddress"/>
+                                            <label for="phonenum">Phone</label>
+                                            <input id="phonenum" type="text" required pattern="^[0-9]{8}$" title="Only 8 digits number"/>
+                                    </div>
+            
+                                </div>
+                                <div class="password">
+                                    <label for="passwordlabel">Password*</label>
+                                    <input required id="passwordlabel" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$"
+                                    title="Password must contain Minimum 10 characters, uppercase and lowercase letters"/>
+                                </div>
+                                <div class="reenterpassword">
+                                        <label for="reenterpasslabel">Re-enter Password*</label>
+                                        <input required id="reenterpasslabel" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$"
+                                        title="Password must contain Minimum 10 characters, uppercase and lowercase letters"/>
+                                    </div>
+                            </div>
+                                <div class="newsletter">
+                                    <p>I want to sign up for the newsletter.</p>
+                                    <label for="weeklynews">Weekly News</label>
+                                    <input type="radio" name="news" id="weeklynews" required/>
+                                    <label for="monthlynews">Monthly News</label>
+                                    <input type="radio" name="news" id="monthlynews"/>
+                                    <label for="dontsendnews">Don't send me news</label>
+                                    <input type="radio" name="news" id="dontsendnews"/>
+                                </div>
+        
+
+                                <button>Next step</button>
+                </form>
+
+
+        </div>
+
+    </body>
+</html>

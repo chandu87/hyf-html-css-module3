@@ -1,0 +1,54 @@
+
+.emailphone{
+    margin-left:127px;
+
+}
+.emailphone input{
+    height: 30px;
+    width:20%;
+    font-size:14t;
+    margin-left:10px;
+    border:2px solid grey;
+}
+.password input{
+    height: 30px;
+    width:20%;
+    font-size:14t;
+    margin-left:5px;
+    border:2px solid grey;
+}
+.password{
+    margin-left:90px;
+}
+.reenterpassword input{
+    margin-left:10px;
+    width:19%;
+    height:30px;
+    font-size:14t;
+    border:2px solid grey;
+}
+
+label{
+    font-weight: bold;
+}
+
+input[type=radio] {
+    margin-right: 50px;
+
+}
+.progressdone{
+    width:20%;
+    height:40px;
+    border:2px solid grey;
+    background: grey;
+    float: left;
+}
+.progressleft{
+    background:white;
+    width:75%;
+    height:40px;
+    border:2px solid grey;
+    float:left;
+    
+}
+

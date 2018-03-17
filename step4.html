@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Week 03</title>
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css"></link>
+        <link rel="stylesheet" href="css/style4.css"></link>
+    </head>
+
+    <body>
+        <div>
+            <div id="logo">
+                Logo
+            </div>
+            <div id="navigation">
+                Navigation
+            </div>
+        </div>
+        <div id="page1">
+            <header>
+                <h1>Sign up to yourcustomtailor.com</h1>
+
+            </header>
+            <main>
+                <h2>Step 4/4 - Payment</h2>
+                <h6>Progress</h6>
+                <div class="progressbar">
+                    <div class="progressdone"></div>
+                    <div class="progressleft"></div>
+                </div>
+                <br>
+                <br>
+                <p>Please fill in your payment data</p>
+                
+                <form>
+                    <div class="details">
+                    <div>
+                            <div class="name">
+                                    <label for="cardname">Name on card</label>
+                                    <input id="cardname" type="text" required/>
+                            </div>
+                            <div class="cardtype">
+                                    <label for="cardcategory">Card type</label>
+                                    <select id="cardcategory" required>
+                                        <option></option>
+                                        <option value="visa">Visa</option>
+                                        <option value="mastercard">Master card</option>
+                                        <option value="dankort">Dankort</option>
+                                    </select>
+                                    <!-- <input id="cardtype" /> -->
+                            </div>
+                            <div class="cardnumber">
+                                    <label for="cardnumber">Credit card number</label>
+                                    <input id="cardnumber" type="text" required pattern="^[0-9]{16}$" title="Only numbers allowed. Exactly 16 digits."/>
+                                    <label>First Name</label>
+                                    <input/>
+                                    
+                            </div>
+                            <div class="expiry">
+                                    <label for="expirymonth">Expiry month</label>
+                                    <input id="expirymonth" type="number" required/>
+                                    <label for="expiryyear">Expiry year</label>
+                                    <input id="expiryyear" type="number" required/>
+                                    
+                            </div>
+                            <div class="ccvcode">
+                                    <label for="ccvnumber">CCV</label>
+                                    <input id="ccvnumber" type="text" required pattern="^[0-9]{3}$" title="Only numbers. Exactly 3 digits"/>  
+                            </div>
+                    </div>
+
+                    <button>Next step</button>
+              
+                    </div>
+
+                </form>
+
+            </main>
+
+
+        </div>
+
+    </body>
+</html>

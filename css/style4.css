@@ -1,0 +1,66 @@
+
+.name{
+    margin-left:45px;
+
+}
+.name input{
+    height: 40px;
+    width:20%;
+    font-size:14t;
+    margin-left:10px;
+    border:2px solid grey;
+}
+.cardtype{
+    margin-left:90px;
+}
+.cardtype select,.cardnumber input{
+    height: 40px;
+    width:20%;
+    font-size:14t;
+    margin-left:5px;
+    border:2px solid grey;
+}
+.country{
+    margin-left:50px;
+}
+.country select{
+    margin-left:14px;
+    width:20%;
+    height:40px;
+    border-radius: 20px;
+    border:2px solid grey;
+}
+
+
+label{
+    font-weight: bold;
+}
+.expiry{
+    margin-left:55px;
+}
+.ccvcode{
+    margin-left:135px;
+}
+.expiry input,.ccvcode input{
+    height: 40px;
+    width:5%;
+    font-size:14t;
+    margin-left:5px;
+    border:2px solid grey;
+}
+.progressdone{
+    width:85%;
+    height:40px;
+    border:2px solid grey;
+    background: grey;
+    float: left;
+}
+.progressleft{
+    background:white;
+    width:10%;
+    height:40px;
+    border:2px solid grey;
+    float:left;
+    
+}
+
